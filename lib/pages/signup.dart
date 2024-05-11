@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:puc/pages/PUC.dart';
+import 'package:puc/pages/puc.dart';
 
 
 class LOGIN extends StatelessWidget {
@@ -52,7 +52,7 @@ class LOGIN extends StatelessWidget {
                 SizedBox(height: 20,),
 
              FloatingActionButton(onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>PUC()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>DateTimeExample()));
              },
              child: Icon(Icons.login),
              
