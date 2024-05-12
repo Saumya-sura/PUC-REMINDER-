@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586351462635",
+    "project_id": "puc-reminder-6952a",
+    "storage_bucket": "puc-reminder-6952a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586351462635:android:a08f71792af5b4bef756ae",
+        "android_client_info": {
+          "package_name": "com.example.puc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXAE6niHYjGKg6HAZbAlQpGM-LVKUNQ9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

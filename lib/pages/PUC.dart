@@ -2,6 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:puc/firebase_options.dart';
+
+
+
 class DateTimeExample extends StatefulWidget {
   const DateTimeExample({super.key});
 
@@ -46,6 +52,20 @@ class _DateTimeExampleState extends State<DateTimeExample> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('DateTime Example'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Selected date: ${_formatter.format(_dateTime)}'),
+            ElevatedButton(
+              onPressed: _selectDate,
+              child: const Text('Select date'),
+            ),
+
+           
+          ],
+        ),
       ),
     );
   }
